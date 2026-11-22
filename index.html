@@ -1,0 +1,1238 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>91传媒公司简介 - 官方品牌视频门户,专注原创内容生态</title>
+<meta name="description" content="91传媒官方网站,国内深耕原创视频内容与创作者生态的传媒企业,提供高清视频作品、品牌故事、创作者社区与行业观察,持续运营值得信赖的视频品牌平台。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231c2333'/%3E%3Cpath d='M24 18l24 14-24 14z' fill='%23ff6b4a'/%3E%3C/svg%3E">
+<style>
+:root{
+  --jm-ink:#1c2333;
+  --jm-ink-soft:#39415a;
+  --jm-paper:#f6f7fb;
+  --jm-card:#ffffff;
+  --jm-line:#e3e6f0;
+  --jm-accent:#ff6b4a;
+  --jm-accent-deep:#e04b2b;
+  --jm-cool:#3f5efb;
+  --jm-mint:#13b8a6;
+  --jm-muted:#6d7488;
+  --jm-radius:16px;
+  --jm-shadow:0 10px 30px rgba(28,35,51,.08);
+  --jm-focus:#ffb020;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  margin:0;
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color:var(--jm-ink);
+  background:var(--jm-paper);
+  line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block;}
+a{color:inherit;text-decoration:none;}
+button{font-family:inherit;cursor:pointer;}
+.jm91-skip{position:absolute;left:-9999px;top:0;}
+.jm91-skip:focus{left:12px;top:12px;z-index:999;background:#fff;padding:8px 14px;border-radius:8px;border:2px solid var(--jm-focus);}
+
+/* ============ 吸顶区 ============ */
+.jm91-sticky{position:sticky;top:0;z-index:80;}
+.jm91-notice{
+  background:linear-gradient(90deg,#1c2333,#2b3550 55%,#3a2a3a);
+  color:#f2f4fb;
+  font-size:13.5px;
+  letter-spacing:.2px;
+}
+.jm91-notice-in{
+  max-width:1220px;margin:0 auto;padding:9px 20px;
+  display:flex;align-items:center;gap:14px;flex-wrap:wrap;
+}
+.jm91-notice-badge{
+  background:var(--jm-accent);color:#fff;font-weight:700;
+  font-size:11.5px;padding:2px 9px;border-radius:999px;letter-spacing:1px;white-space:nowrap;
+}
+.jm91-notice-list{display:flex;gap:22px;flex-wrap:wrap;min-width:0;}
+.jm91-notice-item{display:flex;gap:7px;align-items:baseline;min-width:0;}
+.jm91-notice-item b{color:#ffd7cc;font-weight:600;white-space:nowrap;}
+.jm91-notice-item span{color:#c9cfe0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.jm91-notice-more{margin-left:auto;color:#ffb59f;font-weight:600;white-space:nowrap;}
+
+.jm91-header{
+  background:rgba(255,255,255,.94);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--jm-line);
+}
+.jm91-header-in{
+  max-width:1220px;margin:0 auto;padding:12px 20px;
+  display:flex;align-items:center;gap:20px;
+}
+.jm91-brand{display:flex;align-items:center;gap:10px;flex:none;}
+.jm91-brand-mark{
+  width:40px;height:40px;border-radius:12px;background:var(--jm-ink);
+  display:grid;place-items:center;flex:none;
+}
+.jm91-brand-mark svg{width:20px;height:20px;}
+.jm91-brand-txt b{display:block;font-size:17px;letter-spacing:.5px;line-height:1.2;}
+.jm91-brand-txt span{display:block;font-size:10.5px;color:var(--jm-muted);letter-spacing:2.4px;}
+.jm91-nav{display:flex;gap:4px;flex-wrap:wrap;flex:1;}
+.jm91-nav a{
+  padding:7px 12px;border-radius:9px;font-size:14.5px;color:var(--jm-ink-soft);
+  font-weight:500;transition:.2s;white-space:nowrap;
+}
+.jm91-nav a:hover{background:#f0f2f9;color:var(--jm-ink);}
+.jm91-header-tools{display:flex;align-items:center;gap:10px;flex:none;}
+.jm91-search{
+  display:flex;align-items:center;gap:6px;background:#f1f3fa;border:1px solid var(--jm-line);
+  border-radius:999px;padding:6px 6px 6px 14px;
+}
+.jm91-search input{
+  border:0;background:transparent;outline:none;font-size:13.5px;width:150px;color:var(--jm-ink);
+}
+.jm91-search input::placeholder{color:#9aa1b5;}
+.jm91-search button{
+  border:0;background:var(--jm-accent);color:#fff;border-radius:999px;
+  padding:5px 14px;font-size:13px;font-weight:600;
+}
+.jm91-search-result{
+  position:absolute;margin-top:8px;background:#fff;border:1px solid var(--jm-line);
+  border-radius:12px;box-shadow:var(--jm-shadow);padding:10px 14px;font-size:13px;
+  color:var(--jm-ink-soft);max-width:300px;display:none;z-index:90;line-height:1.6;
+}
+.jm91-search-wrap{position:relative;}
+.jm91-burger{
+  display:none;border:1px solid var(--jm-line);background:#fff;border-radius:10px;
+  width:40px;height:38px;align-items:center;justify-content:center;padding:0;
+}
+.jm91-burger span{display:block;width:17px;height:2px;background:var(--jm-ink);position:relative;}
+.jm91-burger span::before,.jm91-burger span::after{
+  content:"";position:absolute;left:0;width:17px;height:2px;background:var(--jm-ink);
+}
+.jm91-burger span::before{top:-5px;}
+.jm91-burger span::after{top:5px;}
+
+/* ============ 容器 ============ */
+.jm91-wrap{max-width:1220px;margin:0 auto;padding:0 20px;}
+.jm91-section{padding:64px 0;scroll-margin-top:132px;}
+.jm91-section-alt{background:#fff;border-top:1px solid var(--jm-line);border-bottom:1px solid var(--jm-line);}
+.jm91-sec-head{max-width:760px;margin-bottom:34px;}
+.jm91-eyebrow{
+  display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;
+  letter-spacing:2px;color:var(--jm-accent-deep);text-transform:uppercase;margin-bottom:10px;
+}
+.jm91-eyebrow::before{content:"";width:22px;height:2px;background:var(--jm-accent);display:inline-block;}
+.jm91-h2{font-size:clamp(23px,3.2vw,32px);line-height:1.3;margin:0 0 12px;letter-spacing:.4px;}
+.jm91-lead{color:var(--jm-muted);font-size:15px;margin:0;}
+.jm91-h3{font-size:17.5px;margin:0 0 8px;line-height:1.45;}
+
+/* ============ 首屏 ============ */
+.jm91-hero{padding:52px 0 60px;background:
+  radial-gradient(900px 420px at 88% -10%,rgba(255,107,74,.14),transparent 65%),
+  radial-gradient(700px 380px at 4% 100%,rgba(63,94,251,.12),transparent 60%),
+  var(--jm-paper);}
+.jm91-hero-grid{display:grid;grid-template-columns:minmax(0,1.02fr) minmax(0,.98fr);gap:44px;align-items:center;}
+.jm91-hero-badge{
+  display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--jm-line);
+  border-radius:999px;padding:6px 14px;font-size:12.5px;font-weight:600;color:var(--jm-ink-soft);
+  box-shadow:0 2px 8px rgba(28,35,51,.05);
+}
+.jm91-hero-badge i{width:7px;height:7px;border-radius:50%;background:var(--jm-mint);display:block;}
+.jm91-h1{
+  font-size:clamp(34px,5.4vw,56px);line-height:1.12;letter-spacing:1px;
+  margin:18px 0 6px;font-weight:800;
+}
+.jm91-h1 em{font-style:normal;color:var(--jm-accent);}
+.jm91-hero-sub{font-size:16.5px;color:var(--jm-ink-soft);margin:0 0 18px;max-width:31em;}
+.jm91-intro{
+  font-size:14.5px;color:#4c5468;background:#fff;border:1px solid var(--jm-line);
+  border-left:4px solid var(--jm-accent);border-radius:12px;padding:16px 18px;margin:0 0 22px;
+}
+.jm91-hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:26px;}
+.jm91-btn{
+  border:1px solid transparent;border-radius:11px;padding:11px 22px;font-size:14.5px;
+  font-weight:600;transition:.2s;display:inline-flex;align-items:center;gap:8px;
+}
+.jm91-btn-main{background:var(--jm-ink);color:#fff;}
+.jm91-btn-main:hover{background:#2c3550;transform:translateY(-1px);}
+.jm91-btn-accent{background:var(--jm-accent);color:#fff;}
+.jm91-btn-accent:hover{background:var(--jm-accent-deep);transform:translateY(-1px);}
+.jm91-btn-ghost{background:#fff;border-color:var(--jm-line);color:var(--jm-ink-soft);}
+.jm91-btn-ghost:hover{border-color:var(--jm-ink);color:var(--jm-ink);}
+.jm91-hero-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;}
+.jm91-stat{background:#fff;border:1px solid var(--jm-line);border-radius:13px;padding:13px 14px;}
+.jm91-stat b{display:block;font-size:21px;letter-spacing:.5px;color:var(--jm-ink);}
+.jm91-stat span{font-size:12px;color:var(--jm-muted);}
+.jm91-hero-visual{position:relative;}
+.jm91-hero-frame{
+  border-radius:22px;overflow:hidden;box-shadow:0 24px 50px rgba(28,35,51,.18);
+  border:5px solid #fff;background:#fff;
+}
+.jm91-hero-frame img{width:100%;aspect-ratio:16/11;object-fit:cover;}
+.jm91-hero-caption{
+  position:absolute;left:16px;bottom:-18px;background:#fff;border:1px solid var(--jm-line);
+  border-radius:13px;padding:10px 16px;box-shadow:var(--jm-shadow);font-size:13px;font-weight:600;
+  display:flex;gap:10px;align-items:center;
+}
+.jm91-hero-caption i{width:9px;height:9px;background:var(--jm-accent);border-radius:50%;}
+
+/* ============ 通用卡片 ============ */
+.jm91-card{background:#fff;border:1px solid var(--jm-line);border-radius:var(--jm-radius);}
+.jm91-grid-3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;}
+.jm91-grid-2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;}
+
+/* ============ 焦点内容 ============ */
+.jm91-focus-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:26px;align-items:start;}
+.jm91-focus-main{
+  background:#fff;border:1px solid var(--jm-line);border-radius:20px;overflow:hidden;
+  box-shadow:var(--jm-shadow);
+}
+.jm91-cover{position:relative;overflow:hidden;background:#eef0f7;}
+.jm91-cover img{width:100%;aspect-ratio:16/9;object-fit:cover;transition:transform .5s;}
+.jm91-focus-main:hover .jm91-cover img{transform:scale(1.03);}
+.jm91-cover-tag{
+  position:absolute;top:12px;left:12px;background:rgba(28,35,51,.82);color:#fff;
+  font-size:11.5px;padding:3px 10px;border-radius:999px;letter-spacing:.5px;
+}
+.jm91-cover-play{
+  position:absolute;right:12px;bottom:12px;background:rgba(255,255,255,.94);
+  border-radius:999px;font-size:12px;padding:4px 11px;font-weight:600;color:var(--jm-ink);
+  display:flex;align-items:center;gap:6px;
+}
+.jm91-focus-body{padding:20px 22px 22px;}
+.jm91-focus-body h3{font-size:20px;margin:0 0 8px;line-height:1.4;}
+.jm91-focus-body p{color:#4c5468;font-size:14.5px;margin:0 0 14px;}
+.jm91-meta{display:flex;gap:14px;flex-wrap:wrap;font-size:12.5px;color:var(--jm-muted);align-items:center;}
+.jm91-tags{display:flex;gap:7px;flex-wrap:wrap;margin:12px 0;}
+.jm91-tag{
+  font-size:11.5px;background:#f1f3fa;color:#4c5468;border-radius:999px;padding:3px 11px;
+  border:1px solid #e7eaf4;
+}
+.jm91-tag-hot{background:#fff1ec;color:var(--jm-accent-deep);border-color:#ffd9cf;}
+.jm91-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:12px;}
+.jm91-act{
+  border:1px solid var(--jm-line);background:#fff;border-radius:9px;padding:6px 12px;
+  font-size:12.5px;color:var(--jm-ink-soft);transition:.18s;display:inline-flex;gap:6px;align-items:center;
+}
+.jm91-act:hover{border-color:var(--jm-accent);color:var(--jm-accent-deep);}
+.jm91-act.is-liked{background:#fff1ec;border-color:#ffc9ba;color:var(--jm-accent-deep);font-weight:600;}
+.jm91-act.is-saved{background:#eef4ff;border-color:#c6d7ff;color:var(--jm-cool);font-weight:600;}
+
+.jm91-side-list{display:flex;flex-direction:column;gap:14px;}
+.jm91-side-item{padding:16px 17px;display:grid;grid-template-columns:auto minmax(0,1fr);gap:13px;align-items:start;}
+.jm91-side-num{
+  font-size:19px;font-weight:800;color:var(--jm-accent);line-height:1.2;
+  font-family:Georgia,serif;min-width:26px;
+}
+.jm91-side-item h4{font-size:14.8px;margin:0 0 5px;line-height:1.45;}
+.jm91-side-item p{font-size:12.8px;color:var(--jm-muted);margin:0 0 7px;}
+.jm91-side-item .jm91-mini{margin:0;}
+
+/* ============ 视频列表 ============ */
+.jm91-vlist{display:flex;flex-direction:column;gap:0;background:#fff;border:1px solid var(--jm-line);border-radius:var(--jm-radius);overflow:hidden;}
+.jm91-vrow{
+  display:grid;grid-template-columns:minmax(0,1fr) auto;gap:18px;
+  padding:20px 22px;border-bottom:1px solid var(--jm-line);align-items:start;
+}
+.jm91-vrow:last-child{border-bottom:0;}
+.jm91-vrow:hover{background:#fafbff;}
+.jm91-vrow-tags{display:flex;gap:7px;flex-wrap:wrap;margin-top:9px;}
+.jm91-vrow-right{text-align:right;font-size:12px;color:var(--jm-muted);white-space:nowrap;line-height:1.9;}
+.jm91-vrow-right b{color:var(--jm-ink);font-size:13.5px;display:block;}
+
+/* ============ 专题 ============ */
+.jm91-topic{
+  background:#fff;border:1px solid var(--jm-line);border-radius:16px;padding:22px;
+  display:flex;flex-direction:column;gap:12px;transition:.22s;
+}
+.jm91-topic:hover{box-shadow:var(--jm-shadow);transform:translateY(-3px);border-color:#cfd6e9;}
+.jm91-topic-top{display:flex;justify-content:space-between;align-items:center;gap:10px;}
+.jm91-status{font-size:11.5px;padding:3px 10px;border-radius:999px;background:#e8f7f3;color:#0b7c6f;font-weight:600;white-space:nowrap;}
+.jm91-status-wait{background:#fff6e6;color:#a97310;}
+.jm91-topic ul{margin:0;padding-left:0;list-style:none;display:flex;flex-direction:column;gap:8px;}
+.jm91-topic li{font-size:13.4px;color:#4c5468;padding-left:16px;position:relative;}
+.jm91-topic li::before{content:"›";position:absolute;left:0;color:var(--jm-accent);font-weight:800;}
+
+/* ============ 解析长文 ============ */
+.jm91-essay{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:36px;align-items:start;}
+.jm91-essay article p{font-size:15px;color:#3f4759;margin:0 0 16px;}
+.jm91-essay article h3{font-size:19px;margin:30px 0 10px;padding-left:12px;border-left:4px solid var(--jm-accent);}
+.jm91-essay article h3:first-of-type{margin-top:6px;}
+.jm91-aside{position:sticky;top:140px;display:flex;flex-direction:column;gap:16px;}
+.jm91-aside-card{background:#fff;border:1px solid var(--jm-line);border-radius:14px;padding:18px;}
+.jm91-aside-card h4{margin:0 0 10px;font-size:14px;letter-spacing:.6px;}
+.jm91-aside-card ol{margin:0;padding-left:18px;font-size:13.2px;color:#4c5468;display:flex;flex-direction:column;gap:8px;}
+.jm91-quotebox{
+  background:linear-gradient(160deg,#1c2333,#2c3550);color:#eef1fa;border-radius:14px;padding:20px;
+  font-size:13.6px;line-height:1.85;
+}
+.jm91-quotebox b{display:block;color:#ffb59f;font-size:12px;letter-spacing:2px;margin-bottom:8px;}
+
+/* ============ 作者 ============ */
+.jm91-authors{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;}
+.jm91-author{background:#fff;border:1px solid var(--jm-line);border-radius:16px;padding:22px;transition:.22s;}
+.jm91-author:hover{box-shadow:var(--jm-shadow);border-color:#cfd6e9;}
+.jm91-author-top{display:flex;gap:14px;align-items:center;margin-bottom:12px;}
+.jm91-avatar{
+  width:54px;height:54px;border-radius:16px;display:grid;place-items:center;
+  font-weight:800;font-size:20px;color:#fff;flex:none;letter-spacing:1px;
+}
+.jm91-author-name{font-size:16px;font-weight:700;line-height:1.3;}
+.jm91-author-field{font-size:12.4px;color:var(--jm-muted);}
+.jm91-author p{font-size:13.6px;color:#4c5468;margin:0 0 12px;}
+.jm91-author-nums{display:flex;gap:18px;font-size:12.3px;color:var(--jm-muted);border-top:1px dashed var(--jm-line);padding-top:11px;}
+.jm91-author-nums b{color:var(--jm-ink);font-size:13.5px;}
+
+/* ============ 评价 ============ */
+.jm91-reviews{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;}
+.jm91-review{background:#fff;border:1px solid var(--jm-line);border-radius:14px;padding:20px;}
+.jm91-review-top{display:flex;align-items:center;gap:11px;margin-bottom:10px;}
+.jm91-review-av{
+  width:36px;height:36px;border-radius:50%;display:grid;place-items:center;
+  font-size:13.5px;font-weight:700;color:#fff;flex:none;
+}
+.jm91-review-name{font-size:13.6px;font-weight:600;}
+.jm91-review-meta{font-size:11.6px;color:var(--jm-muted);}
+.jm91-stars{color:#f5a623;font-size:12.5px;letter-spacing:1px;margin-left:auto;}
+.jm91-review p{font-size:13.6px;color:#4c5468;margin:0;}
+.jm91-review-quote{
+  grid-column:span 2;background:linear-gradient(140deg,#fff6f2,#eef2ff);
+  border:1px solid #ffdfd4;border-radius:14px;padding:22px;font-size:15px;line-height:1.8;color:#3f4759;
+}
+.jm91-review-quote b{display:block;font-size:12.5px;color:var(--jm-accent-deep);letter-spacing:1px;margin-bottom:6px;}
+
+/* ============ FAQ / 动态 ============ */
+.jm91-faq-wrap{display:grid;grid-template-columns:minmax(0,1fr);gap:0;background:#fff;border:1px solid var(--jm-line);border-radius:var(--jm-radius);overflow:hidden;}
+.jm91-faq-wrap details{border-bottom:1px solid var(--jm-line);}
+.jm91-faq-wrap details:last-child{border-bottom:0;}
+.jm91-faq-wrap summary{
+  padding:17px 22px;font-size:15px;font-weight:600;cursor:pointer;list-style:none;
+  display:flex;justify-content:space-between;gap:14px;align-items:center;
+}
+.jm91-faq-wrap summary::-webkit-details-marker{display:none;}
+.jm91-faq-wrap summary::after{content:"+";font-size:19px;color:var(--jm-accent);font-weight:400;flex:none;}
+.jm91-faq-wrap details[open] summary::after{content:"–";}
+.jm91-faq-wrap details p{margin:0;padding:0 22px 18px;font-size:14px;color:#4c5468;}
+
+.jm91-news{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;}
+.jm91-news-item{background:#fff;border:1px solid var(--jm-line);border-radius:14px;padding:19px 20px;}
+.jm91-news-date{font-size:11.8px;color:var(--jm-accent-deep);font-weight:700;letter-spacing:1px;}
+.jm91-news-item h4{font-size:15px;margin:6px 0 6px;}
+.jm91-news-item p{font-size:13.3px;color:var(--jm-muted);margin:0;}
+
+.jm91-partners{display:flex;gap:14px;flex-wrap:wrap;}
+.jm91-partner{
+  flex:1 1 180px;background:#fff;border:1px solid var(--jm-line);border-radius:13px;
+  padding:18px;text-align:center;font-size:13.5px;font-weight:600;color:var(--jm-ink-soft);
+  transition:.2s;
+}
+.jm91-partner small{display:block;font-weight:400;font-size:11.6px;color:var(--jm-muted);margin-top:5px;}
+.jm91-partner:hover{border-color:var(--jm-accent);color:var(--jm-accent-deep);}
+
+/* ============ 数据条 ============ */
+.jm91-band{
+  background:linear-gradient(120deg,#1c2333,#303b5c 60%,#3c2b3e);color:#eef1fa;
+  border-radius:20px;padding:34px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;
+}
+.jm91-band-cell b{font-size:26px;display:block;letter-spacing:.6px;}
+.jm91-band-cell span{font-size:12.4px;color:#b9c2da;}
+.jm91-band-cell p{font-size:12.8px;color:#9fa9c4;margin:6px 0 0;}
+
+/* ============ 订阅 / 投稿 ============ */
+.jm91-cta{
+  background:#fff;border:1px solid var(--jm-line);border-radius:20px;padding:32px;
+  display:flex;gap:26px;align-items:center;justify-content:space-between;flex-wrap:wrap;
+}
+.jm91-cta h3{margin:0 0 6px;font-size:20px;}
+.jm91-cta p{margin:0;font-size:14px;color:var(--jm-muted);max-width:38em;}
+
+/* ============ 页脚 ============ */
+.jm91-footer{background:#161b28;color:#c3cade;padding:52px 0 26px;margin-top:20px;}
+.jm91-footer-grid{display:grid;grid-template-columns:minmax(0,1.4fr) repeat(3,minmax(0,.8fr));gap:30px;}
+.jm91-footer h5{color:#fff;font-size:14px;margin:0 0 12px;letter-spacing:.6px;}
+.jm91-footer p{font-size:13px;margin:0 0 10px;line-height:1.8;color:#9ba4bd;}
+.jm91-footer ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;}
+.jm91-footer li{font-size:13px;color:#9ba4bd;}
+.jm91-footer a:hover{color:#ffb59f;}
+.jm91-footer-bottom{
+  margin-top:34px;padding-top:18px;border-top:1px solid #262e42;
+  display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:12.4px;color:#7d879f;
+}
+
+/* ============ 杂项交互 ============ */
+.jm91-toast{
+  position:fixed;left:50%;bottom:34px;transform:translate(-50%,20px);opacity:0;pointer-events:none;
+  background:#1c2333;color:#fff;padding:11px 20px;border-radius:11px;font-size:13.4px;
+  box-shadow:0 12px 30px rgba(0,0,0,.25);transition:.28s;z-index:200;max-width:88vw;
+}
+.jm91-toast.is-on{opacity:1;transform:translate(-50%,0);}
+.jm91-top{
+  position:fixed;right:22px;bottom:26px;width:44px;height:44px;border-radius:12px;
+  background:var(--jm-ink);color:#fff;border:0;display:grid;place-items:center;font-size:17px;
+  box-shadow:var(--jm-shadow);opacity:0;pointer-events:none;transition:.25s;z-index:120;
+}
+.jm91-top.is-on{opacity:1;pointer-events:auto;}
+.jm91-modal{
+  position:fixed;inset:0;background:rgba(18,22,34,.55);display:none;z-index:300;
+  align-items:center;justify-content:center;padding:20px;
+}
+.jm91-modal.is-on{display:flex;}
+.jm91-modal-in{
+  background:#fff;border-radius:18px;max-width:520px;width:100%;padding:26px;
+  box-shadow:0 26px 60px rgba(0,0,0,.3);max-height:86vh;overflow:auto;
+}
+.jm91-modal-in h3{margin:0 0 10px;font-size:19px;}
+.jm91-modal-in p{font-size:14px;color:#4c5468;margin:0 0 10px;}
+.jm91-modal-in label{display:block;font-size:12.6px;color:var(--jm-muted);margin:12px 0 5px;font-weight:600;}
+.jm91-modal-in input,.jm91-modal-in textarea{
+  width:100%;border:1px solid var(--jm-line);border-radius:9px;padding:9px 12px;font-size:14px;
+  font-family:inherit;outline:none;color:var(--jm-ink);background:#fafbff;
+}
+.jm91-modal-in input:focus,.jm91-modal-in textarea:focus{border-color:var(--jm-accent);background:#fff;}
+.jm91-modal-close{
+  float:right;border:0;background:#f1f3fa;border-radius:8px;width:30px;height:30px;font-size:15px;
+  color:#4c5468;
+}
+.jm91-modal-actions{display:flex;gap:10px;margin-top:18px;flex-wrap:wrap;}
+
+@media (max-width:1020px){
+  .jm91-hero-grid,.jm91-focus-grid,.jm91-essay,.jm91-footer-grid{grid-template-columns:minmax(0,1fr);}
+  .jm91-aside{position:static;}
+  .jm91-authors,.jm91-reviews,.jm91-news{grid-template-columns:minmax(0,1fr);}
+  .jm91-review-quote{grid-column:auto;}
+  .jm91-grid-3{grid-template-columns:repeat(2,minmax(0,1fr));}
+  .jm91-band{grid-template-columns:repeat(3,minmax(0,1fr));padding:26px;}
+  .jm91-section{scroll-margin-top:120px;}
+}
+@media (max-width:760px){
+  .jm91-nav{
+    display:none;width:100%;flex-direction:column;padding:10px 0 4px;order:5;
+  }
+  .jm91-nav.is-open{display:flex;}
+  .jm91-header-in{flex-wrap:wrap;gap:12px;}
+  .jm91-burger{display:flex;}
+  .jm91-header-tools{margin-left:auto;}
+  .jm91-search input{width:104px;}
+  .jm91-hero{padding:34px 0 44px;}
+  .jm91-grid-3,.jm91-grid-2{grid-template-columns:minmax(0,1fr);}
+  .jm91-band{grid-template-columns:minmax(0,1fr);gap:16px;}
+  .jm91-vrow{grid-template-columns:minmax(0,1fr);}
+  .jm91-vrow-right{text-align:left;display:flex;gap:14px;flex-wrap:wrap;}
+  .jm91-vrow-right b{display:inline;}
+  .jm91-section{padding:44px 0;scroll-margin-top:112px;}
+  .jm91-notice-item span{display:none;}
+  .jm91-notice-list{gap:12px;}
+  .jm91-hero-stats{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;}
+  .jm91-stat b{font-size:17px;}
+  .jm91-cta{padding:24px;}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+<a class="jm91-skip" href="#jm91-main">跳到主要内容</a>
+
+<div class="jm91-sticky">
+  <div class="jm91-notice">
+    <div class="jm91-notice-in">
+      <span class="jm91-notice-badge">官方发布</span>
+      <div class="jm91-notice-list">
+        <div class="jm91-notice-item"><b>新增</b><span>《创作者扶持计划 2026》报名通道开启,首批 60 个名额</span></div>
+        <div class="jm91-notice-item"><b>更新</b><span>品牌纪录片《镜头里的第七年》高清版上线</span></div>
+        <div class="jm91-notice-item"><b>公告</b><span>11 月 26 日 02:00-04:00 进行上传组件维护</span></div>
+      </div>
+      <a class="jm91-notice-more" href="#jm91-news">查看全部 →</a>
+    </div>
+  </div>
+
+  <header class="jm91-header">
+    <div class="jm91-header-in">
+      <a class="jm91-brand" href="#jm91-top">
+        <span class="jm91-brand-mark">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5l11 7-11 7z" fill="#ff6b4a"/></svg>
+        </span>
+        <span class="jm91-brand-txt"><b>91传媒</b><span>CREATIVE MEDIA</span></span>
+      </a>
+      <nav class="jm91-nav" id="jm91-nav" aria-label="主导航">
+        <a href="#jm91-focus">焦点内容</a>
+        <a href="#jm91-about">品牌解析</a>
+        <a href="#jm91-topics">专题企划</a>
+        <a href="#jm91-authors">创作者</a>
+        <a href="#jm91-reviews">用户口碑</a>
+        <a href="#jm91-faq">帮助中心</a>
+        <a href="#jm91-news">企业动态</a>
+      </nav>
+      <div class="jm91-header-tools">
+        <div class="jm91-search-wrap">
+          <form class="jm91-search" id="jm91-search-form" role="search">
+            <input type="search" id="jm91-search-input" placeholder="搜索作品 / 创作者" aria-label="搜索作品或创作者">
+            <button type="submit">搜索</button>
+          </form>
+          <div class="jm91-search-result" id="jm91-search-result" role="status" aria-live="polite"></div>
+        </div>
+        <button class="jm91-burger" id="jm91-burger" aria-label="展开导航菜单" aria-expanded="false" aria-controls="jm91-nav"><span></span></button>
+      </div>
+    </div>
+  </header>
+</div>
+
+<main id="jm91-main">
+
+  <!-- ===== 首屏 ===== -->
+  <section class="jm91-hero" id="jm91-top">
+    <div class="jm91-wrap">
+      <div class="jm91-hero-grid">
+        <div>
+          <span class="jm91-hero-badge"><i></i>官方网站 · 持续运营第 7 年</span>
+          <h1 class="jm91-h1">91传媒<em>公司简介</em></h1>
+          <p class="jm91-hero-sub">一家把「真实」拍进画面里的视频品牌企业 —— 从原创短片到系列纪录,我们和创作者一起,把值得被看见的生活与行业故事做成高清作品。</p>
+          <p class="jm91-intro">作为国内深耕原创视频内容的企业,91传媒官方网站持续为创作者与品牌搭建高品质内容生态:自建拍摄与后期团队,开放投稿与共创通道,以专业标准筛选每一支上线的视频。这里是品牌的官方门户,也是创作者社区每天更新的内容现场。</p>
+          <div class="jm91-hero-actions">
+            <a class="jm91-btn jm91-btn-main" href="#jm91-focus">进入内容首页</a>
+            <button class="jm91-btn jm91-btn-accent" type="button" data-jm91-open="submit">我要投稿</button>
+            <a class="jm91-btn jm91-btn-ghost" href="#jm91-about">了解品牌故事</a>
+          </div>
+          <div class="jm91-hero-stats">
+            <div class="jm91-stat"><b data-jm91-count="12800">12,800+</b><span>累计原创视频作品</span></div>
+            <div class="jm91-stat"><b data-jm91-count="436">436</b><span>签约与入驻创作者</span></div>
+            <div class="jm91-stat"><b data-jm91-count="92">92%</b><span>用户口碑好评率</span></div>
+          </div>
+        </div>
+        <div class="jm91-hero-visual">
+          <div class="jm91-hero-frame">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 550'%3E%3Cdefs%3E%3ClinearGradient id='g1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%231c2333'/%3E%3Cstop offset='1' stop-color='%23303b5c'/%3E%3C/linearGradient%3E%3ClinearGradient id='g2' x1='0' y1='1' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%23ff6b4a'/%3E%3Cstop offset='1' stop-color='%23ffb59f'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='550' fill='url(%23g1)'/%3E%3Ccircle cx='640' cy='120' r='180' fill='%23ff6b4a' opacity='0.16'/%3E%3Ccircle cx='160' cy='470' r='210' fill='%233f5efb' opacity='0.18'/%3E%3Crect x='110' y='120' width='420' height='280' rx='18' fill='%23f6f7fb' opacity='0.08'/%3E%3Crect x='110' y='120' width='420' height='280' rx='18' fill='none' stroke='%23ffb59f' stroke-width='2' opacity='0.5'/%3E%3Cpath d='M300 200l110 60-110 60z' fill='url(%23g2)'/%3E%3Crect x='110' y='428' width='280' height='9' rx='4' fill='%23ffffff' opacity='0.35'/%3E%3Crect x='110' y='452' width='180' height='9' rx='4' fill='%23ffffff' opacity='0.18'/%3E%3Crect x='590' y='300' width='120' height='190' rx='14' fill='%23ffffff' opacity='0.09'/%3E%3Crect x='590' y='300' width='120' height='190' rx='14' fill='none' stroke='%23ffffff' stroke-width='1.5' opacity='0.35'/%3E%3Ccircle cx='650' cy='352' r='22' fill='%23ff6b4a' opacity='0.85'/%3E%3Crect x='614' y='398' width='72' height='7' rx='3.5' fill='%23ffffff' opacity='0.4'/%3E%3Crect x='614' y='416' width='52' height='7' rx='3.5' fill='%23ffffff' opacity='0.22'/%3E%3C/svg%3E" width="800" height="550" alt="91传媒品牌主视觉:深色影像画面中播放键与作品卡片构成的官方主视觉">
+          </div>
+          <div class="jm91-hero-caption"><i></i>本周首播 · 城市系列第 12 集</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 焦点内容 ===== -->
+  <section class="jm91-section jm91-section-alt" id="jm91-focus">
+    <div class="jm91-wrap">
+      <div class="jm91-sec-head">
+        <span class="jm91-eyebrow">Focus · 编辑精选</span>
+        <h2 class="jm91-h2">焦点作品:91传媒官方网站本周重点推荐</h2>
+        <p class="jm91-lead">编辑部从当周上新的原创视频中挑出一支重点作品,并附上四支值得完整看完的精品内容,覆盖纪录片、教程与人物访谈。</p>
+      </div>
+
+      <div class="jm91-focus-grid">
+        <article class="jm91-focus-main">
+          <div class="jm91-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Cdefs%3E%3ClinearGradient id='c1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23ff8a5c'/%3E%3Cstop offset='1' stop-color='%23ffd2b0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='450' fill='url(%23c1)'/%3E%3Ccircle cx='150' cy='340' r='150' fill='%23ffffff' opacity='0.22'/%3E%3Ccircle cx='660' cy='90' r='110' fill='%23e04b2b' opacity='0.25'/%3E%3Crect x='90' y='96' width='250' height='250' rx='16' fill='%23ffffff' opacity='0.75'/%3E%3Cpath d='M190 160l90 60-90 60z' fill='%23e04b2b'/%3E%3Cg fill='%23ffffff' opacity='0.62'%3E%3Crect x='400' y='130' width='310' height='12' rx='6'/%3E%3Crect x='400' y='164' width='250' height='12' rx='6'/%3E%3Crect x='400' y='198' width='280' height='12' rx='6'/%3E%3C/g%3E%3Crect x='400' y='252' width='150' height='42' rx='21' fill='%23ffffff' opacity='0.9'/%3E%3Ctext x='475' y='279' font-family='sans-serif' font-size='18' fill='%23e04b2b' text-anchor='middle'%3E观看%3C/text%3E%3C/svg%3E" width="800" height="450" alt="焦点作品《第七年,我们把镜头交给了普通人》16:9暖橙色封面">
+            <span class="jm91-cover-tag">品牌纪录片</span>
+            <span class="jm91-cover-play">▶ 18:42</span>
+          </div>
+          <div class="jm91-focus-body">
+            <h3>《第七年,我们把镜头交给了普通人》91传媒年度品牌纪录</h3>
+            <p>七年时间,91传媒从一个四人拍摄小组走到今天的内容团队。这支纪录片没有旁白,只有八位普通创作者对着镜头讲述自己第一次按下录制键的原因——有人拍凌晨的菜市场,有人拍父亲的旧自行车,有人拍一整年的工地晚霞。品牌故事不靠总结,靠画面自己说话。</p>
+            <div class="jm91-tags">
+              <span class="jm91-tag jm91-tag-hot">品牌故事</span>
+              <span class="jm91-tag">纪录片</span>
+              <span class="jm91-tag">高质量正片</span>
+              <span class="jm91-tag">原创</span>
+            </div>
+            <div class="jm91-meta">
+              <span>作者:品牌内容组</span><span>播放 42.6 万</span><span>2026-11-18 发布</span>
+            </div>
+            <div class="jm91-actions">
+              <button class="jm91-act" type="button" data-jm91-like data-count="12844">♥ <span>12,844</span></button>
+              <button class="jm91-act" type="button" data-jm91-save>☆ 收藏</button>
+              <button class="jm91-act" type="button" data-jm91-copy="第七年,我们把镜头交给了普通人">复制链接</button>
+              <button class="jm91-act" type="button" data-jm91-open="report">反馈</button>
+            </div>
+          </div>
+        </article>
+
+        <div class="jm91-side-list">
+          <article class="jm91-card jm91-side-item">
+            <span class="jm91-side-num">01</span>
+            <div>
+              <h4>一支广告片的 11 次重拍:拆解 91传媒的拍摄流程</h4>
+              <p>从脚本围读到灯光复盘,完整公开企业级视频项目的执行节点。</p>
+              <div class="jm91-tags jm91-mini"><span class="jm91-tag">创作幕后</span><span class="jm91-tag">教程干货</span></div>
+            </div>
+          </article>
+          <article class="jm91-card jm91-side-item">
+            <span class="jm91-side-num">02</span>
+            <div>
+              <h4>访谈:在县域拍视频的第 400 天,我学会了不追热点</h4>
+              <p>创作者「老周镜头」讲述小城内容如何在社区里慢慢长出影响力。</p>
+              <div class="jm91-tags jm91-mini"><span class="jm91-tag">人物访谈</span><span class="jm91-tag">在地文化</span></div>
+            </div>
+          </article>
+          <article class="jm91-card jm91-side-item">
+            <span class="jm91-side-num">03</span>
+            <div>
+              <h4>手机也能拍出电影感?六个可直接照做的布光方案</h4>
+              <p>面向新人的实用技巧系列,含对照画面与设备清单。</p>
+              <div class="jm91-tags jm91-mini"><span class="jm91-tag">实用技巧</span><span class="jm91-tag">教程</span></div>
+            </div>
+          </article>
+          <article class="jm91-card jm91-side-item">
+            <span class="jm91-side-num">04</span>
+            <div>
+              <h4>行业观察:短视频进入「长内容」周期后,品牌该做什么</h4>
+              <p>91传媒内容研究组季度观察,附三组平台数据与结论。</p>
+              <div class="jm91-tags jm91-mini"><span class="jm91-tag">行业观察</span><span class="jm91-tag">商业观察</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="jm91-band" style="margin-top:36px;">
+        <div class="jm91-band-cell"><b>12,800+</b><span>原创视频</span><p>90% 为 1080P 及以上高清版本</p></div>
+        <div class="jm91-band-cell"><b>486 万</b><span>月度播放</span><p>社区稳定活跃,内容持续更新</p></div>
+        <div class="jm91-band-cell"><b>92%</b><span>口碑好评</span><p>基于用户评价样本统计</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 视频列表 ===== -->
+  <section class="jm91-section" id="jm91-videos">
+    <div class="jm91-wrap">
+      <div class="jm91-sec-head">
+        <span class="jm91-eyebrow">Latest · 最新上线</span>
+        <h2 class="jm91-h2">91传媒官方网站最新视频索引</h2>
+        <p class="jm91-lead">以文字索引为主的内容清单,每条都标注标签、作者与数据,方便快速找到想看的那一支。</p>
+      </div>
+      <div class="jm91-vlist">
+        <article class="jm91-vrow">
+          <div>
+            <h3 class="jm91-h3">开场三十秒:如何用镜头语言抓住观众的第一口气</h3>
+            <p style="margin:0;font-size:13.6px;color:#4c5468;">把 12 支高完播率视频的片头拆成时间轴,逐格讲解构图、音量与信息投放顺序,适合刚起步的创作者。</p>
+            <div class="jm91-vrow-tags"><span class="jm91-tag">教程干货</span><span class="jm91-tag">剪辑思路</span><span class="jm91-tag">新人友好</span></div>
+            <div class="jm91-actions">
+              <button class="jm91-act" type="button" data-jm91-like data-count="3211">♥ <span>3,211</span></button>
+              <button class="jm91-act" type="button" data-jm91-save>☆ 收藏</button>
+              <button class="jm91-act" type="button" data-jm91-copy="开场三十秒:如何用镜头语言抓住观众的第一口气">复制链接</button>
+            </div>
+          </div>
+          <div class="jm91-vrow-right"><b>镜头研究所</b>播放 8.4 万 · 11-20</div>
+        </article>
+        <article class="jm91-vrow">
+          <div>
+            <h3 class="jm91-h3">凌晨四点的水产市场,和在那里守了二十年的老陈</h3>
+            <p style="margin:0;font-size:13.6px;color:#4c5468;">城市探索系列第 12 集。跟随老陈的推车走完一条街,记录一段不喧哗的日常,画面全程现场收音。</p>
+            <div class="jm91-vrow-tags"><span class="jm91-tag">城市探索</span><span class="jm91-tag">日常记录</span><span class="jm91-tag">治愈影像</span></div>
+            <div class="jm91-actions">
+              <button class="jm91-act" type="button" data-jm91-like data-count="5602">♥ <span>5,602</span></button>
+              <button class="jm91-act" type="button" data-jm91-save>☆ 收藏</button>
+              <button class="jm91-act" type="button" data-jm91-copy="凌晨四点的水产市场,和在那里守了二十年的老陈">复制链接</button>
+            </div>
+          </div>
+          <div class="jm91-vrow-right"><b>老周镜头</b>播放 12.7 万 · 11-19</div>
+        </article>
+        <article class="jm91-vrow">
+          <div>
+            <h3 class="jm91-h3">一个手工皮具工作室的十二道工序</h3>
+            <p style="margin:0;font-size:13.6px;color:#4c5468;">从选皮、打版到缝线收边,完整呈现手作过程,附主理人对「慢工」与产量的真实取舍。</p>
+            <div class="jm91-vrow-tags"><span class="jm91-tag">手作DIY</span><span class="jm91-tag">创作幕后</span><span class="jm91-tag">艺术美学</span></div>
+            <div class="jm91-actions">
+              <button class="jm91-act" type="button" data-jm91-like data-count="2874">♥ <span>2,874</span></button>
+              <button class="jm91-act" type="button" data-jm91-save>☆ 收藏</button>
+              <button class="jm91-act" type="button" data-jm91-copy="一个手工皮具工作室的十二道工序">复制链接</button>
+            </div>
+          </div>
+          <div class="jm91-vrow-right"><b>木与线</b>播放 6.1 万 · 11-17</div>
+        </article>
+        <article class="jm91-vrow">
+          <div>
+            <h3 class="jm91-h3">给父母拍一支真正的「生活片」,而不是纪念视频</h3>
+            <p style="margin:0;font-size:13.6px;color:#4c5468;">三组家庭实拍案例,讲解如何让家人忽略镜头,以及为什么不要强行让长辈念台词。</p>
+            <div class="jm91-vrow-tags"><span class="jm91-tag">情感故事</span><span class="jm91-tag">亲子成长</span><span class="jm91-tag">实用技巧</span></div>
+            <div class="jm91-actions">
+              <button class="jm91-act" type="button" data-jm91-like data-count="4108">♥ <span>4,108</span></button>
+              <button class="jm91-act" type="button" data-jm91-save>☆ 收藏</button>
+              <button class="jm91-act" type="button" data-jm91-copy="给父母拍一支真正的生活片,而不是纪念视频">复制链接</button>
+            </div>
+          </div>
+          <div class="jm91-vrow-right"><b>阿遥的记录</b>播放 9.8 万 · 11-15</div>
+        </article>
+        <article class="jm91-vrow">
+          <div>
+            <h3 class="jm91-h3">行业观察:品牌内容为什么开始重新重视「完整叙事」</h3>
+            <p style="margin:0;font-size:13.6px;color:#4c5468;">结合 91传媒近两年项目数据,讨论长内容在品牌传播中的位置,以及创作者的机会窗口。</p>
+            <div class="jm91-vrow-tags"><span class="jm91-tag">行业观察</span><span class="jm91-tag">商业观察</span><span class="jm91-tag">深度解析</span></div>
+            <div class="jm91-actions">
+              <button class="jm91-act" type="button" data-jm91-like data-count="1927">♥ <span>1,927</span></button>
+              <button class="jm91-act" type="button" data-jm91-save>☆ 收藏</button>
+              <button class="jm91-act" type="button" data-jm91-copy="品牌内容为什么开始重新重视完整叙事">复制链接</button>
+            </div>
+          </div>
+          <div class="jm91-vrow-right"><b>内容研究组</b>播放 4.3 万 · 11-13</div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 品牌解析（长文） ===== -->
+  <section class="jm91-section jm91-section-alt" id="jm91-about">
+    <div class="jm91-wrap">
+      <div class="jm91-sec-head">
+        <span class="jm91-eyebrow">Brand · 品牌解析</span>
+        <h2 class="jm91-h2">91传媒公司简介:一家视频企业的七年</h2>
+        <p class="jm91-lead">以下内容由品牌内容组撰写,系统说明 91传媒的定位、运营方式与内容生态,帮助第一次来到官方网站的用户快速了解这家企业。</p>
+      </div>
+
+      <div class="jm91-essay">
+        <article>
+          <h3>从四人小组到视频品牌:91传媒的起点与定位</h3>
+          <p>91传媒成立于 2019 年,最初只是四个人、两台相机和一间不到三十平方米的剪辑室。如今,这家视频品牌已经成长为集原创内容制作、创作者社区运营、品牌影像服务于一体的传媒企业。官方定位一直没变:做「让普通人被看见」的原创视频。我们不追一夜爆红的神话,更在意一支视频五年后回看是否依然站得住。</p>
+          <p>91传媒公司简介的第一条,是内容标准。平台上的每一支视频都经过三道流程:初审看内容真实性,复审看画面与声音的技术底线,终审由编辑部判断这支视频是否值得推荐给社区。三道流程让上线速度比行业平均慢了一些,但换来的是相对稳定口碑。过去七年,官方网站累计上线原创视频超过 12,800 支,其中完整叙事类长视频占三分之一以上,这在以短内容为主的行业里并不常见。</p>
+          <p>第二条是创作者关系。91传媒不是把自己当成一个播放容器,而是把创作者当作共建者。企业设立创作者扶持计划,为签约与入驻作者提供设备借用、后期棚时、选题共研与版权咨询。436 位创作者中,有相当一部分是从社区普通用户成长起来的。官方每年举办一次创作者大会和两次开放投稿单元,把「上传」与「下载」两端的需求放在同一张桌子上讨论,这也是 91传媒内容生态持续稳定的原因之一。</p>
+
+          <h3>为什么坚持「真实现场」:内容理念与运营方式</h3>
+          <p>作为一家在垂直领域深耕的视频企业,91传媒最看重的词是「真实」。我们不太使用棚拍造景替代真实现场,也不习惯给人物写好台词再拍摄。品牌纪录片系列中出现的面孔,几乎都是编者自己联系、自己说服、自己跟拍的普通人。这种制作方式成本更高、周期更长,返回的却是更长的内容寿命。很多品牌故事类视频上线一年后仍有稳定播放,评论里出现的往往是「看了两遍」「让我想起我家门口的菜市场」这类反馈。</p>
+          <p>运营层面,91传媒采用「编辑部 + 社区」的双轨结构。编辑部负责精品内容的选题、制作与质检,社区负责日常更新、话题标签与同好互动。平台设有热度榜、新人榜与口碑榜三类数据榜单,每两周更新一次,榜单数据全部来自站内真实行为,不做人工加权。合作品牌与内容客户同样可以查阅这些数据,以此判断什么样的影像表达真正被观众接住。我们相信,比单次播放更重要的是信任的累积,而信任只能靠持续运营换来。</p>
+          <p>技术侧,官方网站提供高清播放、收藏夹同步、创作者档案与内容检索。视频与图文索引均支持标签筛选,移动端可以折叠导航快速浏览。团队坚持正版素材与自研拍摄流程,所有对外发布的作品都保留完整版权说明。社会责任层面,91传媒长期为地方文化机构、公益组织提供免费影像记录支持,每年至少完成六个公益拍摄单元,并且把素材公开给所在地的非遗保护单位使用。</p>
+
+          <h3>91传媒公司简介里的三层价值:作品、创作者与社区</h3>
+          <p>第一层是作品价值。91传媒把内容分为四条主线:城市与地域探索、技能与教程、人物访谈、品牌纪录。四条主线各自有稳定的更新节奏,确保官方网站每周都有新内容。作品不追求题材上的猎奇,而追求表达上的准确。以城市探索系列为例,团队会先做在地资料梳理,再确定拍摄对象,最后才决定形式。一集二十分钟左右的成片,前期调研往往超过四十小时。</p>
+          <p>第二层是创作者价值。91传媒为作者提供透明的数据反馈与成长路径。新人入驻后可以从「投稿入口」提交作品,通过审核后进入新人榜;连续三期获得社区好评的作者,可申请加入创作者扶持计划,获得选题共研与设备支持。这套路径没有门槛费用,也不要求独家,但要求作者尊重原创与版权。官方多次强调,平台宁可有内容空档,也不愿用搬运与拼接填充页面。</p>
+          <p>第三层是社区价值。91传媒的社区不是单纯的评论区集合,而是有真实活动的同好圈层。平台每年组织「城市影像挑战」与「一分钟真实」两个征集单元,参赛作品由社区投票与编辑部评审共同决定。去年的征集收到 1,700 多支投稿,其中 90 位作者第一次完成完整剪辑。比赛之外,社区还设有创作灵感板块,提供脚本思路与标题建议,降低新人的启动难度。这些看起来不产生直接收益的投入,恰恰是 91传媒品牌影响力来源的一部分。</p>
+          <p>最后要说明的是,91传媒公司简介并不是一份自夸清单。这家企业有过选题判断失误、有过项目延期,也有过被用户当面批评的时刻。官方把这些问题写进更新日志,是因为一家持续运营的视频品牌,理应把过程也呈现给社区。如果你希望了解更多,可以在官方网站浏览企业动态与帮助中心,或直接通过投稿入口与编辑部对话。我们始终认为,好的视频平台不靠口号,靠的就是一次次把镜头对准真实生活。</p>
+        </article>
+
+        <aside class="jm91-aside">
+          <div class="jm91-aside-card">
+            <h4>企业信息速览</h4>
+            <ol>
+              <li>成立时间:2019 年,持续运营 7 年</li>
+              <li>业务范围:原创内容制作、创作者社区、品牌影像服务</li>
+              <li>团队规模:内容与制作团队 68 人</li>
+              <li>地址:城西创意园 3 号楼 · 91传媒基地</li>
+            </ol>
+          </div>
+          <div class="jm91-quotebox">
+            <b>BRAND VALUE</b>
+            我们不做最大的平台,只想做一家让人愿意反复回来的视频企业。真实、原创、长期主义,是 91传媒全部内容的底色。
+          </div>
+          <div class="jm91-aside-card">
+            <h4>你可能想了解</h4>
+            <ol>
+              <li>如何加入创作者扶持计划</li>
+              <li>投稿的审核标准与周期</li>
+              <li>企业影像合作的流程</li>
+            </ol>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 专题企划 ===== -->
+  <section class="jm91-section" id="jm91-topics">
+    <div class="jm91-wrap">
+      <div class="jm91-sec-head">
+        <span class="jm91-eyebrow">Projects · 专题企划</span>
+        <h2 class="jm91-h2">91传媒官方网站策划中的专题单元</h2>
+        <p class="jm91-lead">三个长期企划同时推进,每个专题记录更新状态与三条具体内容,欢迎创作者报名参与。</p>
+      </div>
+      <div class="jm91-grid-3">
+        <article class="jm91-topic">
+          <div class="jm91-topic-top">
+            <h3 class="jm91-h3" style="margin:0;">小城影像志</h3>
+            <span class="jm91-status">更新中 · 第 8 期</span>
+          </div>
+          <p style="margin:0;font-size:13.6px;color:#4c5468;">把镜头交给县域与小城创作者,记录非中心城市的日常纹理与生活节奏,每期由在地作者主导拍摄。</p>
+          <ul>
+            <li>第 8 期:县城理发店的四张椅子</li>
+            <li>第 7 期:一座小镇的早班公交</li>
+            <li>第 6 期:菜市场里的记账本</li>
+          </ul>
+          <button class="jm91-act" type="button" data-jm91-open="submit">报名参与</button>
+        </article>
+        <article class="jm91-topic">
+          <div class="jm91-topic-top">
+            <h3 class="jm91-h3" style="margin:0;">一分钟真实</h3>
+            <span class="jm91-status jm91-status-wait">征集期 · 至 12-15</span>
+          </div>
+          <p style="margin:0;font-size:13.6px;color:#4c5468;">不限设备、不限题材的一分钟影像征集。要求只有一个:画面里的事情必须真实发生,不摆拍、不加戏。</p>
+          <ul>
+            <li>上届佳作:雨天的修鞋摊</li>
+            <li>上届佳作:奶奶的第一部手机</li>
+            <li>评审手记:为什么这一支拿了最高票</li>
+          </ul>
+          <button class="jm91-act" type="button" data-jm91-open="submit">上传作品</button>
+        </article>
+        <article class="jm91-topic">
+          <div class="jm91-topic-top">
+            <h3 class="jm91-h3" style="margin:0;">镜头之后</h3>
+            <span class="jm91-status">长期连载</span>
+          </div>
+          <p style="margin:0;font-size:13.6px;color:#4c5468;">专注创作幕后的访谈专栏,聊设备、聊预算、聊失败的项目,尽量把行业里不便公开的细节讲清楚。</p>
+          <ul>
+            <li>一位广告导演的止损时刻</li>
+            <li>独立纪录片的钱从哪里来</li>
+            <li>剪辑师如何决定哪一帧该留</li>
+          </ul>
+          <button class="jm91-act" type="button" data-jm91-open="report">推荐嘉宾</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 创作者 ===== -->
+  <section class="jm91-section jm91-section-alt" id="jm91-authors">
+    <div class="jm91-wrap">
+      <div class="jm91-sec-head">
+        <span class="jm91-eyebrow">Creators · 创作者矩阵</span>
+        <h2 class="jm91-h2">91传媒签约与入驻创作者</h2>
+        <p class="jm91-lead">四位不同方向的作者,覆盖城市纪录、教程拆解、手作美学与家庭影像,他们构成了平台内容生态的稳定面。</p>
+      </div>
+      <div class="jm91-authors">
+        <article class="jm91-author">
+          <div class="jm91-author-top">
+            <div class="jm91-avatar" style="background:linear-gradient(140deg,#ff6b4a,#e04b2b);">周</div>
+            <div><div class="jm91-author-name">老周镜头</div><div class="jm91-author-field">城市探索 · 在地文化</div></div>
+          </div>
+          <p>在县城拍视频的第七百天。老周做过十年销售,四十岁转行拍片,擅长在熟悉的街道里找到被忽略的角落。他的片子少有配乐,多是现场声,擅长把一个摊位、一条巷子拍出时间感。目前负责「小城影像志」专题的主拍工作。</p>
+          <div class="jm91-author-nums"><span>作品 <b>186</b></span><span>粉丝 <b>24.6万</b></span></div>
+        </article>
+        <article class="jm91-author">
+          <div class="jm91-author-top">
+            <div class="jm91-avatar" style="background:linear-gradient(140deg,#3f5efb,#5b8cff);">镜</div>
+            <div><div class="jm91-author-name">镜头研究所</div><div class="jm91-author-field">教程干货 · 剪辑思路</div></div>
+          </div>
+          <p>由三位前广告摄影师组成的教学小组,坚持用可复现的案例讲技术。他们的视频里出现最多的画面是时间轴、分镜软件和记号笔写满的白板。选题偏实用,喜欢拆解真实项目中的失误,而不是展示炫技镜头。</p>
+          <div class="jm91-author-nums"><span>作品 <b>214</b></span><span>粉丝 <b>31.2万</b></span></div>
+        </article>
+        <article class="jm91-author">
+          <div class="jm91-author-top">
+            <div class="jm91-avatar" style="background:linear-gradient(140deg,#13b8a6,#0b7c6f);">木</div>
+            <div><div class="jm91-author-name">木与线</div><div class="jm91-author-field">手作DIY · 艺术美学</div></div>
+          </div>
+          <p>一间开了十年的皮具工作室主理人,后来把工作台搬到了镜头前。她拍手作不追求快剪的爽感,更愿意让观众听完锥子穿过皮革的那种声音。内容多围绕材料、工序与器物的使用寿命展开,偶尔聊一点行业里的价格真相。</p>
+          <div class="jm91-author-nums"><span>作品 <b>97</b></span><span>粉丝 <b>12.8万</b></span></div>
+        </article>
+        <article class="jm91-author">
+          <div class="jm91-author-top">
+            <div class="jm91-avatar" style="background:linear-gradient(140deg,#a259c9,#7b3fa0);">遥</div>
+            <div><div class="jm91-author-name">阿遥的记录</div><div class="jm91-author-field">家庭影像 · 情感故事</div></div>
+          </div>
+          <p>两个孩子的母亲,也是家庭影像记录者。她的作品大多在自己家里完成,光线普通、设备普通,却常被社区反复推荐。她坚持替普通家庭拍到可以留下来的画面,并写过一份关于「如何让家人同意被拍」的实操笔记。</p>
+          <div class="jm91-author-nums"><span>作品 <b>142</b></span><span>粉丝 <b>19.4万</b></span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 用户评价 ===== -->
+  <section class="jm91-section" id="jm91-reviews">
+    <div class="jm91-wrap">
+      <div class="jm91-sec-head">
+        <span class="jm91-eyebrow">Feedback · 用户评价</span>
+        <h2 class="jm91-h2">社区对 91传媒的真实评价</h2>
+        <p class="jm91-lead">以下评价来自站内用户与作者的真实反馈,长度与维度各不相同,我们保留原文,不做修饰。</p>
+      </div>
+      <div class="jm91-reviews">
+        <div class="jm91-review-quote">
+          <b>编辑推荐</b>
+          「第一次认真看完一个视频平台的公司简介页面。不喊口号,把做错的事也写出来,这一点比较少见到。91传媒给我的感觉是它真的在做内容,而不是在做流量的生意。」
+          <div class="jm91-meta" style="margin-top:10px;"><span>用户:白露未霜 · 关注 3 年</span></div>
+        </div>
+        <article class="jm91-review">
+          <div class="jm91-review-top">
+            <div class="jm91-review-av" style="background:#e04b2b;">李</div>
+            <div><div class="jm91-review-name">李舟</div><div class="jm91-review-meta">企业客户 · 影像合作</div></div>
+            <div class="jm91-stars">★★★★★</div>
+          </div>
+          <p>我们公司找他们做了一支产品纪录短片,沟通阶段就把能拍和不能拍讲得很清楚,没有为了签单夸口。交付比原计划晚了一周,但成片质量确实稳。</p>
+        </article>
+        <article class="jm91-review">
+          <div class="jm91-review-top">
+            <div class="jm91-review-av" style="background:#3f5efb;">渝</div>
+            <div><div class="jm91-review-name">渝北小唐</div><div class="jm91-review-meta">社区创作者</div></div>
+            <div class="jm91-stars">★★★★☆</div>
+          </div>
+          <p>投稿审核确实慢,我第一支片子等了十一天。不过反馈写得很具体,连片头两秒黑场的问题都标出来了,比一些只回「未通过」的平台好很多。</p>
+        </article>
+        <article class="jm91-review">
+          <div class="jm91-review-top">
+            <div class="jm91-review-av" style="background:#13b8a6;">阿</div>
+            <div><div class="jm91-review-name">阿茉</div><div class="jm91-review-meta">长期观众</div></div>
+            <div class="jm91-stars">★★★★★</div>
+          </div>
+          <p>喜欢这里不乱推热点。有时候打开首页,看到的是几个完全不认识的普通人在讲自己的日子,反而能看进去。家里吃饭时也常放城市探索系列。</p>
+        </article>
+        <article class="jm91-review">
+          <div class="jm91-review-top">
+            <div class="jm91-review-av" style="background:#a259c9;">木</div>
+            <div><div class="jm91-review-name">木子非木</div><div class="jm91-review-meta">新入驻作者</div></div>
+            <div class="jm91-stars">★★★★☆</div>
+          </div>
+          <p>新人榜这个机制对刚起步的人挺友好。我上传三支片子之后被推荐了一次,第二天播放涨了四倍。希望之后能多一点设备借用的名额。</p>
+        </article>
+        <article class="jm91-review">
+          <div class="jm91-review-top">
+            <div class="jm91-review-av" style="background:#f5a623;">桥</div>
+            <div><div class="jm91-review-name">桥下看片</div><div class="jm91-review-meta">影迷 · 深度用户</div></div>
+            <div class="jm91-stars">★★★★☆</div>
+          </div>
+          <p>纪录片是真的好,尤其是品牌纪录那一支,没有任何自我吹捧。但专题更新节奏有点慢,希望「镜头之后」能更勤快一些,访谈别一次隔那么久。</p>
+        </article>
+        <article class="jm91-review">
+          <div class="jm91-review-top">
+            <div class="jm91-review-av" style="background:#2c3550;">陈</div>
+            <div><div class="jm91-review-name">陈曦</div><div class="jm91-review-meta">地方文化工作者</div></div>
+            <div class="jm91-stars">★★★★★</div>
+          </div>
+          <p>合作过一个非遗记录项目,摄制组在我们那种老厂房里拍了三天,喝的是自己带的茶,临走还把素材整理好了一份给我们。这种做事方式很难得。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ + 动态 ===== -->
+  <section class="jm91-section jm91-section-alt" id="jm91-faq">
+    <div class="jm91-wrap">
+      <div class="jm91-sec-head">
+        <span class="jm91-eyebrow">Help · 帮助中心</span>
+        <h2 class="jm91-h2">关于 91传媒官方网站的常见问题</h2>
+        <p class="jm91-lead">关于投稿、审核、版权与合作的高频问题,点击展开查看详细说明。</p>
+      </div>
+      <div class="jm91-faq-wrap">
+        <details open>
+          <summary>如何向 91传媒投稿,需要满足什么条件?</summary>
+          <p>通过页面中的「投稿入口」提交作品链接或文件说明即可,需填写作者信息、拍摄时间、画面素材来源与授权说明。我们不要求设备型号,也不限制题材,但要求作品为作者本人原创,画面中的被拍摄者需知情同意。</p>
+        </details>
+        <details>
+          <summary>投稿后多久会有审核结果?</summary>
+          <p>一般情况下为 7 至 12 个工作日。如遇征集活动高峰期可能延长,结果会通过站内通知与预留联系方式告知。未通过的作品会附上具体修改建议,欢迎修改后再次提交。</p>
+        </details>
+        <details>
+          <summary>平台对视频清晰度有硬性要求吗?</summary>
+          <p>建议提供 1080P 及以上版本,横竖屏均可。清晰度不是唯一标准,如果内容本身有价值而画质受限,编辑部会单独评估。所有上线作品均为高清播放,不压成低码率。</p>
+        </details>
+        <details>
+          <summary>作品版权归谁?可以同步发布到其他平台吗?</summary>
+          <p>版权归作者本人所有,91传媒仅获得官方渠道的展示与推荐授权。我们不做独家绑定,作者可以自由在其他平台发布。若涉及品牌合作项目,会在合作前单独签订授权范围。</p>
+        </details>
+        <details>
+          <summary>创作者扶持计划包含哪些内容?</summary>
+          <p>包含设备借用、后期棚时、选题共研、版权咨询与一定额度的制作补贴。申请需连续三期作品获得社区较好反馈,或由合作机构推荐。计划每年开放两批次名额,不收取任何费用。</p>
+        </details>
+        <details>
+          <summary>企业或机构如何开展影像合作?</summary>
+          <p>可以通过反馈弹窗或帮助中心留下的联系方式与商务组对接。我们会先了解项目目标与预算范围,再判断是否适合承接。不适合的项目会直接说明原因,不占用双方时间。</p>
+        </details>
+        <details>
+          <summary>发现站内有侵权或搬运内容怎么办?</summary>
+          <p>请通过视频操作区的「反馈」按钮提交说明,并附上原创证明或相关链接。编辑部会在 3 个工作日内核查,确认违规后将下架内容并对账号进行相应处理。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="jm91-section" id="jm91-news">
+    <div class="jm91-wrap">
+      <div class="jm91-sec-head">
+        <span class="jm91-eyebrow">Updates · 企业动态</span>
+        <h2 class="jm91-h2">91传媒企业动态与官方发布</h2>
+        <p class="jm91-lead">品牌资讯、内容更新与线下活动信息,均由官方渠道同步发布。</p>
+      </div>
+      <div class="jm91-news">
+        <article class="jm91-news-item">
+          <div class="jm91-news-date">2026-11-20</div>
+          <h4>创作者扶持计划 2026 首批报名开启</h4>
+          <p>开放 60 个名额,覆盖设备支持、棚时与制作补贴,报名截止 12 月 15 日,详情见帮助中心。</p>
+        </article>
+        <article class="jm91-news-item">
+          <div class="jm91-news-date">2026-11-18</div>
+          <h4>年度品牌纪录片高清版正式上线</h4>
+          <p>《第七年,我们把镜头交给了普通人》18 分钟完整版已在官方网站首播,同步提供字幕与幕后花絮。</p>
+        </article>
+        <article class="jm91-news-item">
+          <div class="jm91-news-date">2026-11-12</div>
+          <h4>「一分钟真实」征集收到 1,700 余支投稿</h4>
+          <p>本届征集初审已完成,90 位作者首次完成完整剪辑,社区投票通道将于 12 月初开放。</p>
+        </article>
+        <article class="jm91-news-item">
+          <div class="jm91-news-date">2026-11-05</div>
+          <h4>与三家地方文化机构达成影像记录合作</h4>
+          <p>本年度公益拍摄单元增加至六个,相关素材将向所在地非遗保护单位开放使用。</p>
+        </article>
+        <article class="jm91-news-item">
+          <div class="jm91-news-date">2026-10-28</div>
+          <h4>官方网站上线标签筛选与收藏夹同步</h4>
+          <p>用户可按母题标签筛选视频与图文索引,收藏内容支持跨设备同步,移动端浏览体验同步优化。</p>
+        </article>
+        <article class="jm91-news-item">
+          <div class="jm91-news-date">2026-10-16</div>
+          <h4>内容研究组发布季度行业观察报告</h4>
+          <p>报告聚焦长内容在品牌传播中的位置,结合站内数据给出分析,可向合作方提供摘要版。</p>
+        </article>
+      </div>
+
+      <div style="margin-top:30px;">
+        <h3 class="jm91-h3">合作品牌与伙伴</h3>
+        <div class="jm91-partners">
+          <div class="jm91-partner">城西创意园<small>场地与创作基地支持</small></div>
+          <div class="jm91-partner">拾光影像器材<small>设备与技术支持</small></div>
+          <div class="jm91-partner">南岸文化馆<small>公益影像记录合作</small></div>
+          <div class="jm91-partner">木石咖啡馆<small>创作者线下沙龙空间</small></div>
+          <div class="jm91-partner">青野音乐学院<small>现场音乐内容合作</small></div>
+        </div>
+      </div>
+
+      <div class="jm91-cta" style="margin-top:34px;">
+        <div>
+          <h3>把你的作品交给我们</h3>
+          <p>91传媒官方网站长期开放投稿。不要求设备,不要求粉丝量,只要求你拍下了真实的画面并愿意分享。</p>
+        </div>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;">
+          <button class="jm91-btn jm91-btn-accent" type="button" data-jm91-open="submit">进入投稿入口</button>
+          <button class="jm91-btn jm91-btn-ghost" type="button" data-jm91-open="report">有问题反馈</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="jm91-footer">
+  <div class="jm91-wrap">
+    <div class="jm91-footer-grid">
+      <div>
+        <h5>91传媒 · 官方网站</h5>
+        <p>91传媒是一家专注原创视频内容与创作者社区的传媒企业,坚持高清、正版、真实的制作标准,以专业与匠心持续运营高品质内容生态。</p>
+        <p style="color:#7d879f;">品牌口号:把真实的画面留久一点。</p>
+      </div>
+      <div>
+        <h5>内容栏目</h5>
+        <ul>
+          <li><a href="#jm91-focus">焦点内容</a></li>
+          <li><a href="#jm91-videos">最新视频</a></li>
+          <li><a href="#jm91-topics">专题企划</a></li>
+          <li><a href="#jm91-about">品牌解析</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>创作者服务</h5>
+        <ul>
+          <li><a href="#jm91-authors">创作者矩阵</a></li>
+          <li><a href="#jm91-faq">帮助中心</a></li>
+          <li><a href="#jm91-news">企业动态</a></li>
+          <li><a href="#jm91-reviews">用户口碑</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>联系与合作</h5>
+        <ul>
+          <li>商务合作:bd@91media.example</li>
+          <li>投稿咨询:submit@91media.example</li>
+          <li>地址:城西创意园 3 号楼</li>
+          <li>工作时间:周一至周五 10:00-18:30</li>
+        </ul>
+      </div>
+    </div>
+    <div class="jm91-footer-bottom">
+      <span>© 2019-2026 91传媒 版权所有 · 持续运营中</span>
+      <span>官方网站 · 91传媒公司简介页面 · 内容备案号:影像备 2026-1187 号</span>
+    </div>
+  </div>
+</footer>
+
+<button class="jm91-top" id="jm91-top-btn" type="button" aria-label="回到顶部">↑</button>
+<div class="jm91-toast" id="jm91-toast" role="status" aria-live="polite"></div>
+
+<div class="jm91-modal" id="jm91-modal" role="dialog" aria-modal="true" aria-labelledby="jm91-modal-title">
+  <div class="jm91-modal-in">
+    <button class="jm91-modal-close" id="jm91-modal-close" type="button" aria-label="关闭">×</button>
+    <h3 id="jm91-modal-title">投稿入口</h3>
+    <div id="jm91-modal-body"></div>
+  </div>
+</div>
+
+<script>
+(function(){
+  var toastEl = document.getElementById('jm91-toast');
+  var toastTimer = null;
+  function toast(msg){
+    toastEl.textContent = msg;
+    toastEl.classList.add('is-on');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.classList.remove('is-on'); }, 2200);
+  }
+
+  /* 移动端导航 */
+  var burger = document.getElementById('jm91-burger');
+  var nav = document.getElementById('jm91-nav');
+  burger.addEventListener('click', function(){
+    var open = nav.classList.toggle('is-open');
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  nav.addEventListener('click', function(e){
+    if(e.target.tagName === 'A' && window.innerWidth <= 760){
+      nav.classList.remove('is-open');
+      burger.setAttribute('aria-expanded','false');
+    }
+  });
+
+  /* 搜索反馈 */
+  var searchForm = document.getElementById('jm91-search-form');
+  var searchInput = document.getElementById('jm91-search-input');
+  var searchResult = document.getElementById('jm91-search-result');
+  var pool = [
+    '《第七年,我们把镜头交给了普通人》品牌纪录片 — 播放 42.6 万',
+    '开场三十秒:如何用镜头语言抓住观众的第一口气 — 镜头研究所',
+    '凌晨四点的水产市场,和在那里守了二十年的老陈 — 老周镜头',
+    '一个手工皮具工作室的十二道工序 — 木与线',
+    '给父母拍一支真正的「生活片」 — 阿遥的记录',
+    '小城影像志 · 第 8 期:县城理发店的四张椅子',
+    '创作者扶持计划 2026 报名入口 — 60 个名额',
+    'FAQ:作品版权归谁?可以同步发布到其他平台吗?'
+  ];
+  searchForm.addEventListener('submit', function(e){
+    e.preventDefault();
+    var q = searchInput.value.trim();
+    if(!q){
+      searchResult.style.display = 'block';
+      searchResult.textContent = '请输入作品标题、创作者昵称或关键词,例如「城市探索」「教程」。';
+      return;
+    }
+    var hits = pool.filter(function(item){ return item.indexOf(q) > -1; });
+    if(!hits.length){
+      hits = pool.filter(function(item){
+        var chars = q.split('');
+        return chars.some(function(c){ return item.indexOf(c) > -1; });
+      });
+    }
+    searchResult.style.display = 'block';
+    if(hits.length){
+      searchResult.innerHTML = '找到 ' + hits.length + ' 条相关结果:<br>· ' + hits.slice(0,4).join('<br>· ');
+    }else{
+      searchResult.textContent = '未找到「' + q + '」相关内容,可尝试更短的关键词,或通过页面下方的投稿入口联系我们。';
+    }
+  });
+
+  /* 点赞与收藏 */
+  document.querySelectorAll('[data-jm91-like]').forEach(function(btn){
+    var countEl = btn.querySelector('span');
+    var base = parseInt(btn.getAttribute('data-count'), 10) || 0;
+    btn.addEventListener('click', function(){
+      var liked = btn.classList.toggle('is-liked');
+      var val = liked ? base + 1 : base;
+      countEl.textContent = val.toLocaleString('en-US');
+      toast(liked ? '已点赞,感谢支持原创内容' : '已取消点赞');
+    });
+  });
+  document.querySelectorAll('[data-jm91-save]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var saved = btn.classList.toggle('is-saved');
+      btn.innerHTML = saved ? '★ 已收藏' : '☆ 收藏';
+      toast(saved ? '已加入收藏夹' : '已取消收藏');
+    });
+  });
+
+  /* 复制链接 */
+  document.querySelectorAll('[data-jm91-copy]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var text = btn.getAttribute('data-jm91-copy');
+      var done = function(){ toast('链接已复制:' + text.slice(0, 18) + '…'); };
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(text).then(done).catch(function(){ toast('复制失败,请手动选择文本'); });
+      }else{
+        var ta = document.createElement('textarea');
+        ta.value = text;
+        document.body.appendChild(ta);
+        ta.select();
+        try{ document.execCommand('copy'); done(); }catch(e){ toast('复制失败,请手动选择文本'); }
+        document.body.removeChild(ta);
+      }
+    });
+  });
+
+  /* 弹窗 */
+  var modal = document.getElementById('jm91-modal');
+  var modalTitle = document.getElementById('jm91-modal-title');
+  var modalBody = document.getElementById('jm91-modal-body');
+  var modalClose = document.getElementById('jm91-modal-close');
+
+  var contents = {
+    submit: {
+      title: '投稿入口',
+      html: '<p>填写基本信息后提交,编辑部会在 7-12 个工作日内回复。请确保作品为本人原创,画面中被拍摄者知情同意。</p>' +
+        '<label for="jm91-f1">作品标题</label><input id="jm91-f1" type="text" placeholder="例如:凌晨四点的水产市场">' +
+        '<label for="jm91-f2">作者昵称与联系方式</label><input id="jm91-f2" type="text" placeholder="昵称 / 邮箱或手机号">' +
+        '<label for="jm91-f3">作品链接或素材说明</label><textarea id="jm91-f3" rows="3" placeholder="粘贴链接,或简单说明素材内容与拍摄时间"></textarea>' +
+        '<div class="jm91-modal-actions"><button class="jm91-btn jm91-btn-accent" type="button" data-jm91-fake>提交投稿</button><button class="jm91-btn jm91-btn-ghost" type="button" data-jm91-close>稍后再说</button></div>'
+    },
+    report: {
+      title: '反馈与举报',
+      html: '<p>发现侵权、搬运、画质异常或页面问题,都可以在这里反馈。我们会认真核查每一条信息。</p>' +
+        '<label for="jm91-f4">问题类型</label><input id="jm91-f4" type="text" placeholder="例如:版权问题 / 功能异常 / 内容建议">' +
+        '<label for="jm91-f5">具体说明</label><textarea id="jm91-f5" rows="3" placeholder="请描述具体情况,便于我们定位"></textarea>' +
+        '<div class="jm91-modal-actions"><button class="jm91-btn jm91-btn-main" type="button" data-jm91-fake>提交反馈</button><button class="jm91-btn jm91-btn-ghost" type="button" data-jm91-close>关闭</button></div>'
+    }
+  };
+
+  function openModal(key){
+    var c = contents[key] || contents.submit;
+    modalTitle.textContent = c.title;
+    modalBody.innerHTML = c.html;
+    modal.classList.add('is-on');
+    document.body.style.overflow = 'hidden';
+    var firstInput = modalBody.querySelector('input, textarea');
+    if(firstInput){ setTimeout(function(){ firstInput.focus(); }, 60); }
+  }
+  function closeModal(){
+    modal.classList.remove('is-on');
+    document.body.style.overflow = '';
+  }
+  document.querySelectorAll('[data-jm91-open]').forEach(function(btn){
+    btn.addEventListener('click', function(){ openModal(btn.getAttribute('data-jm91-open')); });
+  });
+  modalClose.addEventListener('click', closeModal);
+  modal.addEventListener('click', function(e){
+    if(e.target === modal || e.target.hasAttribute('data-jm91-close')){ closeModal(); }
+    if(e.target.hasAttribute('data-jm91-fake')){
+      toast('已收到,感谢你的反馈(演示页面,信息不会真实提交)');
+      closeModal();
+    }
+  });
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape' && modal.classList.contains('is-on')){ closeModal(); }
+  });
+
+  /* 回到顶部 */
+  var topBtn = document.getElementById('jm91-top-btn');
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 520){ topBtn.classList.add('is-on'); }
+    else{ topBtn.classList.remove('is-on'); }
+  }, {passive:true});
+  topBtn.addEventListener('click', function(){
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  /* 数字滚动 */
+  var counters = document.querySelectorAll('[data-jm91-count]');
+  var io = null;
+  if('IntersectionObserver' in window){
+    io = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(!entry.isIntersecting) return;
+        var el = entry.target;
+        io.unobserve(el);
+        var target = parseInt(el.getAttribute('data-jm91-count'), 10);
+        var suffix = el.textContent.replace(/[\d,]/g, '');
+        var start = 0, dur = 900, t0 = null;
+        function step(ts){
+          if(!t0) t0 = ts;
+          var p = Math.min((ts - t0) / dur, 1);
+          var val = Math.floor(start + (target - start) * (1 - Math.pow(1 - p, 3)));
+          el.textContent = val.toLocaleString('en-US') + suffix;
+          if(p < 1) requestAnimationFrame(step);
+        }
+        requestAnimationFrame(step);
+      });
+    }, { threshold: 0.4 });
+    counters.forEach(function(c){ io.observe(c); });
+  }
+})();
+</script>
+</body>
+                                          </html>
